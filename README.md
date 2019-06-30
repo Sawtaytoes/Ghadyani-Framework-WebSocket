@@ -1,3 +1,5 @@
+_**NOTE:** This project has moved to: [Redux-Observable-Backend](https://github.com/Sawtaytoes/Redux-Observable-Backend)_.
+
 # Ghadyani Framework for WebSockets
 
 For an example use case, look at [`./app.js`](app.js).
@@ -49,7 +51,7 @@ webSocket.onerror = console.error
 webSocket.onclose = console.info
 webSocket.onopen = () => {
 	console.log('READY')
-	
+
 	webSocket
 	.send(
 		JSON
